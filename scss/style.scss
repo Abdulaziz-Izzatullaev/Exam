@@ -1,0 +1,386 @@
+*{
+margin: 0;
+padding: 0px;
+box-sizing: border-box;
+}
+body{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.hero{
+max-width: 1200px;
+}
+.navbar{
+width: 100%;
+margin-bottom: 80px;
+}
+.navbar__content{
+width: 1024px;
+padding: 0 40px;
+}
+.navbar__content__items{
+gap:0 48px ;
+display: flex;
+align-items: center;}
+.navbar__content__items-link{
+text-decoration: none;
+color: #050606;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+}
+.navbar__content__items-btn{
+width: 146px;
+height: 44px;
+border-radius: 6px;
+border: 2px solid #050606;
+background: #050606;
+border: none;
+padding: 10px 18px;
+}
+.navbar__content__items-text{
+color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+.hero__titles{
+max-width: 944px;
+margin: auto;
+}
+.hero__titles-title{
+color: #050606;
+font-family: Roboto;
+font-size: 43px;
+font-weight: 400;
+}
+.hero__titles-text{
+color: rgba(5, 6, 6, 0.50);
+font-family: Roboto;
+font-size: 32px;
+font-weight: 400;
+margin-top: 45px;
+margin-bottom: 43px;
+}
+.hero__titles-btn-wrp{
+gap: 0 48px;
+}
+.hero > img{
+margin: 80px 0px 96px 0;
+}
+.edge{
+}
+.edge__content{
+width: 944px;
+}
+.edge__content-title{
+color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 54px;
+font-weight: 400;
+}
+.edge__content-text{
+color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 31px;
+font-weight: 400;
+}
+.edge__content__info{
+width: 944px;
+}
+.edge__content__info__card{
+width: 944px;
+height: 205px;
+border-radius: 16px;
+background: #202425;
+box-shadow: 0px 0px 0px 0px #FFF;
+}
+.edge__content__info__card__title{
+width: 50%;
+height: 100%;
+border-radius: 16px 0 0 16px;
+padding: 56px 50px 57px 48px;
+}
+.edge__content__info__card__title-text{
+color: #FFF;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+margin: 0;
+}
+.edge__content__info__card__title2{
+width: 100%;
+height: 100%;
+border-radius: 16px 0 0 16px;
+padding: 55px 443px 57px 48px ;
+}
+.edge__content__info__card__title2-New{
+border-radius: 4px;
+background: rgba(255, 255, 255, 0.40);
+}
+.edge__Info{
+width: 1200px;
+height: 666px;
+margin-top: 256px;
+}
+.edge__Info__content{
+width: 1024px;
+}
+.edge__Info__content-title{
+color: #050606;
+font-family: Roboto;
+font-size: 60px;
+font-weight: 400;
+}
+.edge__Info__content-text{
+color: rgba(5, 6, 6, 0.50);
+font-family: Roboto;
+font-size: 32px;
+font-weight: 400;
+line-height: 40px; 
+letter-spacing: 0.8px;
+}
+.edge__Info__content-text-doc{
+width: 636px;
+height: 240px;
+position: relative;
+left: 387px;
+}
+.edge__Instruction{
+width: 1024px;
+height: 721px;
+}
+.edge__Instruction__titles{
+width: 944px;
+}
+.edge__all{
+width: 1024px;
+}
+.edge__all__titles{
+width: 768px;
+margin-bottom: 80px;
+margin-top: 164px;
+}
+.edge__all__titles-title{
+color: #050606;
+text-align: center;
+font-family: Roboto;
+font-size: 52px;
+font-weight: 400;
+}
+.edge__all__titles2{
+width: 944px;
+}
+.edge__all__titles2__card{
+width: 944px;
+height: 151px;
+border-radius: 24px;
+background: #FFF;
+padding: 47px 323px 49px 48px;
+}
+.edge__all__titles2__card-text{
+color: #000;
+font-family: Roboto;
+font-size: 18px;
+}
+.edge__all__titles2__card-text2{
+color: #000;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.4px;
+}
+.OurTemplates{
+width: 944px;
+margin-top: 164px;
+}
+.OurTemplates-text{
+color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 32px;
+font-weight: 400;
+}
+.OurTemplates-btn{
+width: 268px;
+height: 62px;
+border-radius: 8px;
+border: 2px solid #050606;
+background: #050606;
+color: #FFF;
+}
+.OurTemplates__content{
+width: 944px;
+height: 904px;
+flex-wrap: wrap;
+margin-top: 80px;
+padding: 56px;
+gap: 53px 20px;
+}
+.OurTemplates__content__card{
+width: 400px;
+height: 380px;
+}
+.Status{
+width: 1024px;
+height: 2119px;
+margin-top: 174px;
+}
+.Status__titles{
+}
+.Status__card{
+width: 944px;
+height: 605px;
+padding: 47px 48px 48px 48px;
+}
+.Status__card-text{
+color: #000;
+font-family: Roboto;
+font-size: 20px;
+margin: 0;
+}
+.Status__card-title{
+color: #000;
+font-family: Roboto;
+font-size: 48px;
+font-weight: 400;
+}
+.Status__card-text2{
+color: rgba(19, 12, 25, 0.50);
+font-family: Roboto;
+font-size: 19px;
+font-weight: 400;
+margin: 0;
+}
+.Status__card__edge{
+width: 848px;
+height: 304px;
+margin-top: 41px;
+}
+.Status__card__edge__text-wrp{
+gap: 0 10px;
+}
+.Status__card-btn{
+width: 848px;
+height: 62px;
+border-radius: 8px;
+border: 2px solid #050606;
+background: #050606;
+color: #FFF;
+}
+.Status__card-btn2{
+width: 848px;
+height: 62px;
+border-radius: 8px;;
+color: black;
+border: none;
+text-align: center;
+font-family: Roboto;
+font-size: 19px;
+font-weight: 400;
+}
+.footer{
+width: 1200px;
+height: 642px;
+background: #101314;
+margin-bottom: 128px;
+}
+.footer__titles{
+width: 944px;
+height: 290px;
+}
+.footer__titles-title{
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 54px;
+font-weight: 400;
+}
+.footer__titles-text{
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 31px;
+font-weight: 400;
+}
+.footer__titles-btn{
+color: black;
+border-radius: 8px;
+background: #FFF;
+}
+.footer__titles-btn-wrp{
+gap:0 20px ;
+}
+.footer__titles-link{
+color: #FFF;
+}
+.footerLinks{
+display: flex;
+height: 1056px;
+}
+.footerLinks__Links{
+
+height: 708px;
+}
+.footerLinks__Links__Social{
+width: 206px;
+height: 580px;
+}
+.footerLinks__Links__Social > img{
+margin-bottom: 20px;
+}
+.footerLinks__Links__Social-icon-wrp{
+gap: 0px 24px;
+}
+.footerLinks__Links-wrp{
+width: 698px;
+height: 612px;
+flex-wrap: wrap;
+}
+.footerLinks__Links-card{
+width: 206px;
+}
+.link-list{
+list-style: none;
+color: #050606;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px; 
+}
+.margin{
+margin-left: 30px;
+}
+.Subscribe{
+width: 944px;
+height: 289px;
+gap:  0 40px;
+}
+.Subscribe__titles{
+width: 560px;
+height: 96px;
+}
+.Subscribe__titles-title{
+color: #050606;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+line-height: 36px; 
+letter-spacing: 1.2px;
+}
+.Subscribe__zone{
+width: 500px;
+height: 83px;
+}
+.Subscribe__zone-btn{
+width: 81px;
+height: 29px;
+border-radius: 4px;
+background: #007DFF;
+border: none;
+}
